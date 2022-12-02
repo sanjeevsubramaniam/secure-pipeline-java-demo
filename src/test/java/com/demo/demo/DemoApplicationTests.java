@@ -16,6 +16,6 @@ class DemoApplicationTests {
 
 	@Test
 	void oneISEqualtoOne() {
-		assertEquals(1, 2);
+		assertEquals(1, 1);
 	}
 }

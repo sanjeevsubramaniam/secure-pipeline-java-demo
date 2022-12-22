@@ -84,7 +84,7 @@ pipeline {
 //                       gem install license_finder
 //                       license_finder
 //                     '''
-            }
+//             }
           }
         }
         stage('SCA') {

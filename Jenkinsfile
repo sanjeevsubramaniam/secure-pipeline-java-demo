@@ -85,6 +85,9 @@ pipeline {
 //                       license_finder
 //                     '''
 //             }
+               container('docker-tools') {
+                   sh 'grype dir:./ || exit 0'
+                }
           }
         }
         stage('SCA') {
